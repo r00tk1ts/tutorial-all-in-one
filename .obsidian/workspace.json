@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,9 +151,12 @@
   },
   "active": "91308e3163da06b8",
   "lastOpenFiles": [
+    "program-language/python/ch00/images/Pasted image 20240506195304.png",
+    "program-language/python/ch00/images/Pasted image 20240506165102.png",
+    "program-language/python/ch00/images/Pasted image 20240506165015.png",
+    "program-language/python/ch00/序章-Python简介.md",
     "program-language/python/ch00/images/Pasted image 20240428145505.png",
     "program-language/introduction/编程导论.md",
-    "program-language/python/ch00/序章-Python简介.md",
     "Pasted image 20240428145214.png",
     "program-language/python/ch00/images",
     "program-language/introduction",
