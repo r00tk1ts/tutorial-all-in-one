@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "91308e3163da06b8",
+            "id": "9993a0afa1d3504a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/introduction/编程导论.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "45ed6af8a58ba0e8",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/introduction/编程导论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/introduction/编程导论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md"
+                "file": "program-language/introduction/编程导论.md"
               }
             }
           }
@@ -134,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,15 +149,27 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "91308e3163da06b8",
+  "active": "9993a0afa1d3504a",
   "lastOpenFiles": [
+    "program-language/introduction/images/hacker.mp4",
+    "program-language/introduction/编程导论.md",
+    "program-language/introduction/cfa17ecc-237e-11eb-b480-4e034dd98091.mp4",
+    "program-language/introduction/images/Pasted image 20240507170609.png",
+    "program-language/introduction/images/Pasted image 20240507170536.png",
+    "program-language/introduction/code/hacker-rain.html.md",
+    "program-language/introduction/code/hacker-rain.html",
+    "program-language/introduction/code",
+    "program-language/introduction/未命名.md",
+    "program-language/introduction/images/Pasted image 20240507163924.png",
+    "program-language/introduction/images/Pasted image 20240507162337.png",
+    "program-language/introduction/images/Pasted image 20240507114127.png",
+    "program-language/introduction/images/Pasted image 20240507114018.png",
+    "program-language/introduction/images/Pasted image 20240507113933.png",
+    "program-language/introduction/images",
+    "program-language/python/ch00/序章-Python简介.md",
+    "program-language/python/ch00/images/Pasted image 20240507110442.png",
     "program-language/python/ch00/images/Pasted image 20240506195304.png",
     "program-language/python/ch00/images/Pasted image 20240506165102.png",
-    "program-language/python/ch00/images/Pasted image 20240506165015.png",
-    "program-language/python/ch00/序章-Python简介.md",
-    "program-language/python/ch00/images/Pasted image 20240428145505.png",
-    "program-language/introduction/编程导论.md",
-    "Pasted image 20240428145214.png",
     "program-language/python/ch00/images",
     "program-language/introduction",
     "Welcome.md",

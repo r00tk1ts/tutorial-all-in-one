@@ -37,61 +37,61 @@
 
 每一种编程语言都有它自己独特的审美和设计理念，Python也不例外。这其中包括语言特性的支持，大到编程范式，小至语法糖，归根结底，是编程语言的设计理念与哲学。
 
-Python的设计理念是：**优雅与简明**。它被深深烙印在语言的DNA中，我们在Python解释器中输入`import this`即可看到：
+Python的设计理念是：**优雅、简单、明确**。它被深深烙印在语言的DNA中，我们在Python解释器中输入`import this`即可看到：
 
 ```
 >>> import this
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
-优美胜于丑陋。
 Explicit is better than implicit.
-明了胜于晦涩。
 Simple is better than complex.
-简洁胜于复杂。
 Complex is better than complicated.
-复杂胜于凌乱。
 Flat is better than nested.
-扁平胜于嵌套。
 Sparse is better than dense.
+优美胜于丑陋。
+明了胜于晦涩。
+简洁胜于复杂。
+复杂胜于凌乱。
+扁平胜于嵌套。
 间隔胜于紧凑。
+
 Readability counts.
-可读性很重要。
 Special cases aren't special enough to break the rules.
-特例亦不可违背原则，
 Although practicality beats purity.
-即使实用比纯粹更优。
 Errors should never pass silently.
-错误绝不能悄悄忽略，
 Unless explicitly silenced.
-除非它明确需要如此。
 In the face of ambiguity, refuse the temptation to guess.
-面对不确定性，拒绝妄加猜测。
 There should be one-- and preferably only one --obvious way to do it.
-任何问题应有一种，最好只有一种，显而易见的解决方法。
 Although that way may not be obvious at first unless you're Dutch.
+可读性很重要。
+特例亦不可违背原则，即使实用比纯粹更优。
+错误绝不能悄悄忽略，除非它明确需要如此。
+面对不确定性，拒绝妄加猜测。
+任何问题应有一种，最好只有一种，显而易见的解决方法。
 尽管这方法一开始并非如此直观，除非你是荷兰人。
+
 Now is better than never.
-做优于不做，
 Although never is often better than *right* now.
-然而不假思索还不如不做。
 If the implementation is hard to explain, it's a bad idea.
-如果一个方案难以理解，那它一定不好
 If the implementation is easy to explain, it may be a good idea.
-如果一个方案很容易理解，那它可能是一个好方案
 Namespaces are one honking great idea -- let's do more of those!
-命名空间是一种绝妙的理念，我们应当多加利用
+做优于不做，
+然而不假思索还不如不做。
+如果一个方案难以理解，那它一定不好。
+如果一个方案很容易理解，那它可能是一个好方案。
+命名空间是一种绝妙的理念，我们应当多加利用。
 ```
 
-这些箴言被称作”**Python设计之禅**“。除了核心表达的优雅与简明之外，还着重强调：做一件事只应使用甚至是只应有一种方法。这和其他语言像是C++, Perl的表现大相径庭。
+这些箴言被称作”**Python之禅**“。除了表达的核心理念之外，还着重强调：做一件事只应使用甚至是只应有一种方法。这和其他语言像是C++, Perl的表现大相径庭。
 
 > 更多有关编程语言的审美与设计理念，可以参考我撰写的编程导论系列的文章：[格物致知(2)——语言千百，殊途同归](https://r00tk1ts.github.io/2023/06/13/%E6%A0%BC%E7%89%A9%E8%87%B4%E7%9F%A5(2)%E2%80%94%E2%80%94%E8%AF%AD%E8%A8%80%E5%8D%83%E7%99%BE%EF%BC%8C%E6%AE%8A%E9%80%94%E5%90%8C%E5%BD%92/)。
 
 ## 核心三件套
 
-尽管Python强调简明，但这并不意味着简陋。Python实际上支持多种编程范式，它完全支持结构化编程和面向对象编程，支持一定程度的函数式编程、元编程。
+尽管Python强调简明，但并不意味着简陋。Python实际上支持多种编程范式，它完全支持结构化编程和面向对象编程，支持一定程度的函数式编程、元编程。
 
-但无论支持何种范式，对于一门编程语言来说，它的核心永远是三件套：**语法和语义**、**标准库**和**生态环境**。
+但无论支持何种范式，对于一门编程语言来说，都离不开核心的三件套：**语法和语义**、**标准库**和**生态环境**。
 
 ### 语法和语义
 
@@ -139,7 +139,12 @@ Web开发则历史悠久，随着互联网的发展，Python是最早一批投�
 随着硬件的发展，2011年后人工智能开始发力，从机器学习到深度学习，从专才小模型到通才大模型，AI发展如日中天。Python几乎垄断了这个领域的生态，不仅早早诞生了知名的机器学习库：`scikit-learn`奠定了在机器学习领域开发的饼图，其后更是迎来了两位重量级选手PyTorch和TensorFlow(分别由Facebook和Google研发)，随着AI的发展步入深度学习时代。
 
 此外，可以观察到部分开发者也会选择用Python去做游戏、计算机图形学、移动端开发，显然，在这些领域Python属实不太擅长，生态较为匮乏，故而占比较低。
- 
+# Python安装
+
+登录[官网](https://www.python.org/)，找到对应平台，一键下载安装：
+![[Pasted image 20240507110442.png]]
+官网包罗万象，有详尽的文档资料、社区组织、新闻资讯等，可自行食用。
+
 # 附录
 
 - [Python 生态发展之路](https://zhuanlan.zhihu.com/p/398406235)
