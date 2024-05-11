@@ -171,6 +171,10 @@ Web开发则历史悠久，随着互联网的发展，Python是最早一批投�
 
 推荐PyCharm
 ![[Pasted image 20240510153438.png]]
+# 编程演示
+
+在[[编程导论]]中曾提及，真实的编程是一个按图索骥、层层套娃的过程。就让我们站在新手的视角，一步一个脚印，[从零绘制出Python Version Timeline](code/draw.py)。
+![[Pasted image 20240511151106.png]]
 # 附录
 
 - [Python 生态发展之路](https://zhuanlan.zhihu.com/p/398406235)

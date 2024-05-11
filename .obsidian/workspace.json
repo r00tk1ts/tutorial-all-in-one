@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/python/第一章/Python速览.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/python/第一章/Python速览.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md",
+                "file": "program-language/python/第一章/Python速览.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "program-language/python/ch00/序章-Python简介.md"
+                "file": "program-language/python/第一章/Python速览.md"
               }
             }
           }
@@ -151,18 +151,21 @@
   },
   "active": "9df3ca62d86bd837",
   "lastOpenFiles": [
-    "program-language/python/ch00/images/Pasted image 20240510153522.png",
-    "program-language/python/ch00/images/Pasted image 20240510153438.png",
-    "program-language/python/ch00/images/Pasted image 20240510152808.png",
+    "program-language/python/序章/Python简介.md",
+    "program-language/python/第一章/Python速览.md",
+    "program-language/python/第一章",
+    "program-language/python/序章/images/Pasted image 20240511151106.png",
+    "program-language/python/序章/images/Pasted image 20240510153522.png",
+    "program-language/python/序章/images/Pasted image 20240510153438.png",
+    "program-language/python/序章/images/Pasted image 20240510152808.png",
     "program-language/introduction/编程导论.md",
-    "program-language/python/ch00/序章-Python简介.md",
-    "program-language/python/ch00/images/Pasted image 20240506165102.png",
-    "program-language/python/ch00/images/Pasted image 20240508113021.png",
-    "program-language/python/ch00/images/Pasted image 20240507110442.png",
-    "program-language/python/ch00/images/Pasted image 20240506195304.png",
+    "program-language/python/序章/images/Pasted image 20240506165102.png",
+    "program-language/python/序章/images/Pasted image 20240508113021.png",
+    "program-language/python/序章/images/Pasted image 20240507110442.png",
+    "program-language/python/序章/images/Pasted image 20240506195304.png",
     "program-language/python/ch00/code/test.py",
-    "program-language/python/ch00/code/draw.py",
-    "program-language/python/ch00/code",
+    "program-language/python/序章/code/draw.py",
+    "program-language/python/序章/code",
     "program-language/introduction/images/hacker.mp4",
     "program-language/introduction/cfa17ecc-237e-11eb-b480-4e034dd98091.mp4",
     "program-language/introduction/images/Pasted image 20240507170609.png",
@@ -171,11 +174,8 @@
     "program-language/introduction/code/hacker-rain.html",
     "program-language/introduction/code",
     "program-language/introduction/未命名.md",
-    "program-language/introduction/images/Pasted image 20240507163924.png",
-    "program-language/introduction/images/Pasted image 20240507162337.png",
     "program-language/introduction/images",
-    "program-language/python/ch00/images",
-    "program-language/introduction",
+    "program-language/python/序章/images",
     "Welcome.md"
   ]
 }
