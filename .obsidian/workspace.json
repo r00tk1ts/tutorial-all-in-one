@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "965bba5018e3ffe6",
+        "id": "78f38000b15b4e4e",
         "type": "tabs",
         "children": [
           {
-            "id": "9df3ca62d86bd837",
+            "id": "b5b5a38b15555396",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "program-language/python/第一章/Python速览.md",
+                "file": "program-language/python/第一章/变量与表达式.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "program-language/python/第一章/Python速览.md",
+                "file": "program-language/python/第一章/变量与表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "program-language/python/第一章/Python速览.md",
+                "file": "program-language/python/第一章/变量与表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "program-language/python/第一章/Python速览.md"
+                "file": "program-language/python/第一章/变量与表达式.md"
               }
             }
           }
@@ -149,10 +149,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "9df3ca62d86bd837",
+  "active": "b5b5a38b15555396",
   "lastOpenFiles": [
+    "program-language/python/第一章/images/Pasted image 20240516194149.png",
+    "program-language/python/第一章/images",
     "program-language/python/序章/Python简介.md",
-    "program-language/python/第一章/Python速览.md",
+    "program-language/python/第一章/变量与表达式.md",
+    "program-language/python/python-tutorial.md",
     "program-language/python/第一章",
     "program-language/python/序章/images/Pasted image 20240511151106.png",
     "program-language/python/序章/images/Pasted image 20240510153522.png",
@@ -175,7 +178,6 @@
     "program-language/introduction/code",
     "program-language/introduction/未命名.md",
     "program-language/introduction/images",
-    "program-language/python/序章/images",
     "Welcome.md"
   ]
 }
