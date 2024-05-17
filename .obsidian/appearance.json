@@ -4,5 +4,6 @@
   "cssTheme": "Minimal",
   "interfaceFontFamily": "LXGW WenKai",
   "monospaceFontFamily": "Consolas",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "baseFontSize": 20
 }
