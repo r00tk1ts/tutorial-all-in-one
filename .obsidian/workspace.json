@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78f38000b15b4e4e",
+        "id": "df502e1b1a305889",
         "type": "tabs",
         "children": [
           {
-            "id": "b5b5a38b15555396",
+            "id": "8b793481b10dc823",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5,
-    "collapsed": true
+    "width": 220.5
   },
   "right": {
     "id": "45ed6af8a58ba0e8",
@@ -149,13 +148,14 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b5b5a38b15555396",
+  "active": "8b793481b10dc823",
   "lastOpenFiles": [
+    "program-language/python/python-tutorial.md",
+    "program-language/python/第一章/变量与表达式.md",
+    "未命名.md",
     "program-language/python/第一章/images/Pasted image 20240516194149.png",
     "program-language/python/序章/Python简介.md",
-    "program-language/python/第一章/变量与表达式.md",
     "program-language/python/第一章/images",
-    "program-language/python/python-tutorial.md",
     "program-language/python/第一章",
     "program-language/python/序章/images/Pasted image 20240511151106.png",
     "program-language/python/序章/images/Pasted image 20240510153522.png",

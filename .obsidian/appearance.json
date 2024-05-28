@@ -1,9 +1,10 @@
 {
   "accentColor": "",
-  "theme": "system",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
-  "interfaceFontFamily": "LXGW WenKai",
+  "interfaceFontFamily": "LXGW WenKai Mono",
   "monospaceFontFamily": "Consolas",
-  "textFontFamily": "",
-  "baseFontSize": 20
+  "textFontFamily": "LXGW WenKai Mono",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false
 }
