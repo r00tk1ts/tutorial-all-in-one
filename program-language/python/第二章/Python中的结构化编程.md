@@ -364,3 +364,9 @@ print("The random number is ", rng)
 到此，我们的猜数程序就初具雏形了，它虽然还有着各种各样的缺陷，但至少已能满足我们的基本诉求。随着后续的学习，我们还将逐步完善这段代码，进化到完全体。
 
 > 一个肉眼可见的缺陷：产品对用户的心智不能要求过高，尽管要求输入一个整数，但用户很可能会输入乱七八糟的内容，聪明的小伙伴可以自己试一下，如果输入一个非整数，程序在执行过程中会遇到什么问题？
+
+# 附录
+
+- [结构化编程](https://zh.wikipedia.org/zh-cn/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B)
+- [Python语言参考手册-简单语句](https://docs.python.org/zh-cn/3/reference/simple_stmts.html)
+- [Python语言参考手册-复合语句](https://docs.python.org/zh-cn/3/reference/compound_stmts.html)
