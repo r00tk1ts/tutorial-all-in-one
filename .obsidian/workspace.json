@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与异常.md",
+                "file": "program-language/python/第三章/Python中的函数与模块.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与异常.md",
+                "file": "program-language/python/第三章/Python中的函数与模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与异常.md",
+                "file": "program-language/python/第三章/Python中的函数与模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与异常.md"
+                "file": "program-language/python/第三章/Python中的函数与模块.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "8b793481b10dc823",
   "lastOpenFiles": [
     "program-language/python/python-tutorial.md",
-    "program-language/python/第三章/Python中的函数与异常.md",
+    "program-language/python/第三章/Python中的函数与模块.md",
     "program-language/python/第一章/Python中的变量与表达式.md",
     "program-language/python/第二章/Python中的结构化编程.md",
     "program-language/python/第三章",
