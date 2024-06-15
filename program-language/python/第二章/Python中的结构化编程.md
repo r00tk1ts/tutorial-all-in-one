@@ -1,10 +1,10 @@
 # 结构化编程
 
-**[结构化编程](https://zh.wikipedia.org/zh-cn/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B)**（英语：Structured programming），是一种最常见的[编程范式](https://zh.wikipedia.org/wiki/%E7%B7%A8%E7%A8%8B%E5%85%B8%E7%AF%84 "编程典范")。它采用[子程序](https://zh.wikipedia.org/wiki/%E5%AD%90%E7%A8%8B%E5%BA%8F "子程序")、[块结构](https://zh.wikipedia.org/wiki/%E5%9D%97%E7%BB%93%E6%9E%84 "块结构")、[for循环](https://zh.wikipedia.org/wiki/For%E8%BF%B4%E5%9C%88 "For循环")以及[while循环](https://zh.wikipedia.org/wiki/While%E8%BF%B4%E5%9C%88 "While循环")等结构，来取代传统的 [goto](https://zh.wikipedia.org/wiki/Goto "Goto")。希望借此来改善[计算机程序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F)的明晰性、质量以及开发时间，并且避免写出[面条式代码](https://zh.wikipedia.org/wiki/%E9%9D%A2%E6%9D%A1%E5%BC%8F%E4%BB%A3%E7%A0%81 "面条式代码")。
+**[结构化编程](https://zh.wikipedia.org/zh-cn/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B)**（英语：Structured Programming），是一种最常见的[编程范式](https://zh.wikipedia.org/wiki/%E7%B7%A8%E7%A8%8B%E5%85%B8%E7%AF%84 "编程典范")。它采用[子程序](https://zh.wikipedia.org/wiki/%E5%AD%90%E7%A8%8B%E5%BA%8F "子程序")、[块结构](https://zh.wikipedia.org/wiki/%E5%9D%97%E7%BB%93%E6%9E%84 "块结构")、[for循环](https://zh.wikipedia.org/wiki/For%E8%BF%B4%E5%9C%88 "For循环")以及[while循环](https://zh.wikipedia.org/wiki/While%E8%BF%B4%E5%9C%88 "While循环")等结构，来取代传统的 [goto](https://zh.wikipedia.org/wiki/Goto "Goto")。希望借此来改善[计算机程序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F)的明晰性、质量以及开发时间，并且避免写出[面条式代码](https://zh.wikipedia.org/wiki/%E9%9D%A2%E6%9D%A1%E5%BC%8F%E4%BB%A3%E7%A0%81 "面条式代码")。
 
 > 结构化编程在1960年代开始发展，[科拉多·伯姆](https://zh.wikipedia.org/w/index.php?title=%E7%A7%91%E6%8B%89%E5%A4%9A%C2%B7%E4%BC%AF%E5%A7%86&action=edit&redlink=1)及[朱塞佩·贾可皮尼](https://zh.wikipedia.org/w/index.php?title=%E6%9C%B1%E5%A1%9E%E4%BD%A9%C2%B7%E8%B3%88%E5%8F%AF%E7%9A%AE%E5%B0%BC&action=edit&redlink=1 "朱塞佩·贾可皮尼（页面不存在）")（Giuseppe Jacopini）于1966年5月在《Communications of the ACM》期刊发表[论文](https://zh.wikipedia.org/wiki/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B#cite_note-1)，说明任何一个有goto指令的程序，可以改为完全不使用goto指令的程序，后来[艾兹赫尔·戴克斯特拉](https://zh.wikipedia.org/wiki/%E8%89%BE%E5%85%B9%E8%B5%AB%E5%B0%94%C2%B7%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89 "艾兹赫尔·戴克斯特拉")在1968年也提出著名的论文[《Go To Statement Considered Harmful》](https://zh.wikipedia.org/wiki/%E7%BB%93%E6%9E%84%E5%8C%96%E7%BC%96%E7%A8%8B#cite_note-dijkstra1968-2)，因此结构化编程开始盛行。
 
-现代编程语言在设计上往往都支持结构化编程这种基础范式，然后再因用途与审美差异，各自再额外支持其他不同的编程范式，比如：：[函数式编程](https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B "函数式编程")、[指令式编程](https://zh.wikipedia.org/wiki/%E6%8C%87%E4%BB%A4%E5%BC%8F%E7%B7%A8%E7%A8%8B "指令式编程")、[过程式编程](https://zh.wikipedia.org/wiki/%E8%BF%87%E7%A8%8B%E5%BC%8F%E7%BC%96%E7%A8%8B "过程式编程")、[面向对象编程](https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1 "面向对象程序设计")等等。一些语言甚至可以同时支持多种编程范式。
+现代编程语言在设计上往往都支持结构化编程这种基础范式，然后再因用途与审美差异，各自再额外支持其他不同的编程范式，比如：[函数式编程](https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B "函数式编程")、[指令式编程](https://zh.wikipedia.org/wiki/%E6%8C%87%E4%BB%A4%E5%BC%8F%E7%B7%A8%E7%A8%8B "指令式编程")、[过程式编程](https://zh.wikipedia.org/wiki/%E8%BF%87%E7%A8%8B%E5%BC%8F%E7%BC%96%E7%A8%8B "过程式编程")、[面向对象编程](https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1 "面向对象程序设计")等等。一些语言甚至可以同时支持多种编程范式。
 
 > 比如我们的主角——Python，就同时支持过程式、面向对象和函数式编程。
 
@@ -211,7 +211,7 @@ The random number is  57
 
 我们通过二分法的策略去猜，最终猜到了随机数是57。
 
-> 聪明的小伙伴可以思考一下，采用二分法猜数，至多需要几次一定可以猜到最终结果呢？
+> 思考：聪明的小伙伴可以思考一下，采用二分法猜数，至多需要几次一定可以猜到最终结果呢？
 
 ### `for`
 

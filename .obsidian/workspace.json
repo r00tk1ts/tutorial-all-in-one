@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,12 +152,19 @@
   "lastOpenFiles": [
     "program-language/python/python-tutorial.md",
     "program-language/python/第三章/Python中的函数与模块.md",
-    "program-language/python/第一章/Python中的变量与表达式.md",
+    "program-language/python/第三章/images/Pasted image 20240615223813.png",
+    "program-language/python/第三章/images/Pasted image 20240615221447.png",
+    "program-language/python/第三章/images/Pasted image 20240615221314.png",
+    "program-language/python/第三章/images",
     "program-language/python/第二章/Python中的结构化编程.md",
+    "program-language/python/第二章/code/guess.py~",
+    "program-language/python/第二章/code/guess.py",
+    "program-language/python/第二章/code",
+    "program-language/python/第二章/images/Pasted image 20240609165545.png",
+    "program-language/python/第一章/Python中的变量与表达式.md",
     "program-language/python/第三章",
     "program-language/python/第二章/images/Pasted image 20240609165709.png",
     "program-language/python/第二章/images/Pasted image 20240609165628.png",
-    "program-language/python/第二章/images/Pasted image 20240609165545.png",
     "program-language/python/第二章/images",
     "program-language/python/序章/Python简介.md",
     "program-language/python/第二章",
@@ -168,15 +175,8 @@
     "program-language/python/第一章",
     "program-language/python/序章/images/Pasted image 20240510153522.png",
     "program-language/python/序章/images/Pasted image 20240510153438.png",
-    "program-language/python/序章/images/Pasted image 20240510152808.png",
     "program-language/introduction/编程导论.md",
-    "program-language/python/序章/images/Pasted image 20240506165102.png",
-    "program-language/python/序章/images/Pasted image 20240508113021.png",
     "program-language/python/ch00/code/test.py",
-    "program-language/python/序章/code/draw.py",
-    "program-language/python/序章/code",
-    "program-language/introduction/images/hacker.mp4",
-    "program-language/introduction/cfa17ecc-237e-11eb-b480-4e034dd98091.mp4",
     "program-language/introduction/code/hacker-rain.html.md",
     "program-language/introduction/未命名.md",
     "Welcome.md"
