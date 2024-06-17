@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "df502e1b1a305889",
+        "id": "e45d3c0afbfb88af",
         "type": "tabs",
         "children": [
           {
-            "id": "8b793481b10dc823",
+            "id": "acf15240048d0ea1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "program-language/python/第三章/Python中的函数与模块.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "program-language/python/第三章/Python中的函数与模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "program-language/python/第三章/Python中的函数与模块.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -134,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,23 +141,25 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8b793481b10dc823",
+  "active": "acf15240048d0ea1",
   "lastOpenFiles": [
-    "program-language/python/python-tutorial.md",
+    "program-language/python/第四章/Python中的面向对象编程.md",
     "program-language/python/第三章/Python中的函数与模块.md",
+    "program-language/python/第二章/Python中的结构化编程.md",
+    "program-language/python/第一章/Python中的变量与表达式.md",
+    "program-language/python/第四章",
+    "program-language/python/python-tutorial.md",
+    "program-language/python/第三章/Python中的函数与异常.md",
+    "program-language/python/第二章/code/guess.py",
+    "program-language/python/第二章/code",
     "program-language/python/第三章/images/Pasted image 20240615223813.png",
     "program-language/python/第三章/images/Pasted image 20240615221447.png",
     "program-language/python/第三章/images/Pasted image 20240615221314.png",
     "program-language/python/第三章/images",
-    "program-language/python/第二章/Python中的结构化编程.md",
-    "program-language/python/第二章/code/guess.py~",
-    "program-language/python/第二章/code/guess.py",
-    "program-language/python/第二章/code",
-    "program-language/python/第二章/images/Pasted image 20240609165545.png",
-    "program-language/python/第一章/Python中的变量与表达式.md",
     "program-language/python/第三章",
     "program-language/python/第二章/images/Pasted image 20240609165709.png",
     "program-language/python/第二章/images/Pasted image 20240609165628.png",
+    "program-language/python/第二章/images/Pasted image 20240609165545.png",
     "program-language/python/第二章/images",
     "program-language/python/序章/Python简介.md",
     "program-language/python/第二章",
