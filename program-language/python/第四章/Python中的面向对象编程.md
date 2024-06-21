@@ -105,12 +105,25 @@ class ClassName:
 ```python
 class MyClass:
 	"""A simple example class"""
-	# 定义成员方法f，首个参数self固定，表示调用的对象本身
+	# class variable shared by all instances
+	i = 12345
+	
 	def f(self):
 		return 'hello world'
 ```
 
-## 类的实例化与属性引用
+`MyClass.i`和`MyClass.f`是对类属性的引用，它们会返回一个整数和一个函数对象。
+
+```python
+>>> MyClass.i
+12345
+>>> MyClass.f
+<function MyClass.f at 0x100a6aa20>
+```
+
+类属性是被所有类的实例所共享的。
+
+### 类的实例化
 
 对已创建好的类来说，实例化对象使用函数表示法，可以把类名看作是一个不带参数的函数，返回一个对象实例：
 
@@ -118,11 +131,77 @@ class MyClass:
 # 构造一个MyClass类对象x
 x = MyClass()
 
-# 打印'hello world'
+# 调用类函数对象，打印'hello world'，self参数需要传入一个MyClass对象
+print(MyClass.f(x))
+# 调用方法对象，打印'hello world'，相当于隐式传入了一个x作为self
 print(x.f())
+
+# 对象实例也可以访问到类属性，打印12345
+print(x.i)
+
+# 但对x.i的重新赋值会让x对象内的属性i重新绑定到一个新对象上，并不会影响MyClass.i
+# 此时的x.i是x对象的成员数据属性，而非类属性
+x.i = 54321
+print(x.i) # 54321
+print(MyClass.i) # 12345
 ```
 
-这里对成员方法的访问，是通过`.`操作符：对象`.`方法。
+这里对成员方法的访问，是通过`.`操作符：对象`.`属性。
+
+许多类都希望，在创建对象实例时，可以做一些初始化操作，Python允许为类定义一个`__init_()`特殊方法，如是：
+
+```python
+class MyClass:
+	def __init__(self):
+		# instance variable unique to each instance
+		self.data = []
+
+# 此时会调用__init__()，此时x拥有一个独占的data成员数据属性，值为空list
+x = MyClass()
+```
+
+`__init__`还可以支持任意多个参数，只需要按需设计即可，比如：
+
+```python
+class Complex:
+...     def __init__(self, realpart, imagpart):
+...         self.r = realpart
+...         self.i = imagpart
+...
+>>> x = Complex(3.0, -4.5)
+>>> x.r, x.i
+(3.0, -4.5)
+```
+
+### 数据属性和方法
+
+正如上例所见，得益于动态类型的设计，在Python的对象中，数据属性无需声明，它们就像局部变量那样，会在第一次赋值时自动产生。利用这一机制，我们可以方便的在任意场合，按需对class对象增加数据属性。
+
+```python
+x.counter = 1
+while x.counter < 10:
+    x.counter = x.counter * 2
+print(x.counter)
+# 可以通过del关键字来删除对象的某个属性
+del x.counter
+```
+
+> 像是C++中的数据成员，都得严格在class中提前定义好，才能够被对象引用，否则就是编译错误：undefined member 
+
+与数据属性相对应的，还有一种引用称为“方法”。方法是从属于对象的函数，它的名称查找依赖于所属的类。根据定义，一个类中所有是函数对象的属性都是定义了其实例的相应方法（即，`x.f`是有效的方法引用，是因为`MyClass.f`是一个函数）。
+
+```python
+# 但a.f和Myclass.f还是有区别的，前者是方法对象，后者是函数对象
+>>> a = MyClass()
+>>> type(a.f)
+<class 'method'>
+>>> type(MyClass.f)
+<class 'function'>
+```
+
+如果对象的属性名称和所属类的某个属性重名了，那么对于“对象`.`属性”会优先查找到对象实例的那一个。
+
+## 继承
 
 
 
