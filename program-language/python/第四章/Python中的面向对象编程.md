@@ -201,9 +201,109 @@ del x.counter
 
 如果对象的属性名称和所属类的某个属性重名了，那么对于“对象`.`属性”会优先查找到对象实例的那一个。
 
-## 继承
+除了用此前学习过的`dir`内置函数来查看对象实例所包含的属性外，Python还支持三个内置函数来操纵对象的属性：
 
+- `hasattr(obj, 'x')`: `obj`是否有属性`x`，返回一个布尔值
+- `setattr(obj, 'x', 1)`: 为`obj`设置`x`属性，值为1
+- `getattr(obj, 'x')`: 获取`obj`的`x`属性，如果不存在会抛`AttributeError`
 
+### 私有属性
+
+Python中的private属性是以双下划线开头，但不能以双下划线结尾的属性，比如`__spam, __test_，它们不能被外部代码访问。
+
+> 实际上Python没有真正意义上的private属性，它只是通过一种叫做名称改写的方式来模拟。
+
+ > 形如`__init__`这种以双下划线开头，且以双下划线结尾的属性，是特殊属性，它们可以被直接访问。初学者常常把他们和private属性搞混。
+
+此外，对于单下划线开头的属性，在惯用法上也认为它们是内部的，不希望被外部所引用的属性（尽管外部实际上可以引用）。
+
+## 继承和多态
+
+Python中的派生类定义语法如下：
+
+```python
+class DerivedClassName(BaseClassName):
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
+
+名称`BaseClassName`必须对`DerivedClassName`可见（术语描述：定义于可从包含所派生的类的定义的作用域访问的命名空间中）。
+
+> 当然也可以通过`modname.BaseClassName`来继承其他模块的基类。
+
+派生类定义的执行过程与基类相同。当解析属性引用时，如果请求的属性在类中找不到，将继续在基类中查找。 如果基类本身也派生自其他某个类，则此规则将被递归地应用。
+
+> 对于没有指定基类的class，默认都从`object`类继承。`object`类是Python中的顶级类，所有的类都是它的子类。
+
+派生类可以overwrite基类的方法，不同的子类可以对父类的同一个方法给出不同的实现版本，这样的方法在程序运行时就会表现出多态行为（调用相同的方法，做了不同的事情）。
+
+以这样一个简单的例子来进行描述：
+
+```python
+class Animal:
+    def __init__(self, name):
+        # 设置动物名称，作为实例属性
+        self.name = name
+
+    def eat(self):
+        print('{} is eating...', self.name)
+
+    def sleep(self):
+        print('{} is sleeping...', self.name)
+
+    def talk(self):
+        # 不知道是什么动物，所以默认行为直接pass不实现
+        pass
+
+class Dog(Animal):
+    def talk(self):
+        print('{} is talking, wang wang wang...')
+
+class Cat(Animal):
+    def talk(self):
+        print('{} is talking, miao miao miao...')
+
+def animal_live(animal):
+    animal.eat()
+    # 根据animal实际的类型，调用overwrite的talk方法
+    animal.talk()
+    animal.sleep()
+
+dog = Dog('大黄')
+cat = Cat('小白')
+
+animal_live(dog)
+animal_live(cat)
+```
+
+### 类对象检查
+
+两个内置函数可被用于继承机制的对象类型检查：
+
+-  `isinstance(obj, int)` : 检查一个实例的类型，仅会在 `obj.__class__` 为 `int` 或某个派生自 `int`的类时为 `True`。
+- `issubclass(classA, classB)` : 检查类的继承关系，如果classA是classB的子类，则返回`True`。比如`issubclass(bool, int)`为真，但`issubclass(float, int)`为假。
+
+### 多重继承
+
+Python支持多重继承，语法形如：
+
+```python
+class DerivedClassName(Base1, Base2, Base3):
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
+
+多重继承在实际应用中可能会面临一些问题，比如多个父类具有同名的属性，那么在访问属性时究竟使用的是谁的属性，这一点是“不确定的”（受Python的方法解析顺序影响，主要是为了解决菱形继承的基类多次访问问题）。因此，在设计类的继承关系时，就要慎重考虑。
+
+对于支持多重继承的语言来说，一般会采用一种被称为Mixin的策略：通过继承多个父类进行组合，父类之间相互解耦，来避免过多层次的单继承。
+
+> 比如Server可以是gRPC协议或HTTP协议，模型可以是多进程、多线程或是协程，那么就可以将两个维度解耦。从原本是多层结构的单继承$2*3$，变成简单的$2+3$组合。
 
 # 附录
 
