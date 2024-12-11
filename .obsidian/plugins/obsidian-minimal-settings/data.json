@@ -2,7 +2,7 @@
   "lightStyle": "minimal-light-contrast",
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-everforest-light",
-  "darkScheme": "minimal-dracula-dark",
+  "darkScheme": "minimal-everforest-dark",
   "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 40,
